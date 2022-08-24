@@ -1,0 +1,11 @@
+info = imfinfo('C:\Users\Besitzer\Downloads\atan2.png');
+image_name = info.Filename;
+modification_date = info.FileModDate;
+image_size = info.FileSize;
+image_width = info.Width;
+image_height = info.Height
+color_depth = info.BitDepth;
+color_type = info.ColorType;
+sample_number = info.NumberOfSamples;
+coding_Method = info.CodingMethod;
+coding_process = info.CodingProcess
